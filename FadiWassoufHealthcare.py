@@ -24,7 +24,7 @@ from sklearn.preprocessing import StandardScaler
 # In[2]:
 
 st.set_page_config(layout="wide",page_title=None)
-df = pd.read_csv("C:\\Users\\USER\\Downloads\\finallifeexp.csv")
+df = pd.read_csv("finallifeexp.csv")
 
 #Imputing Null Values
 
