@@ -755,6 +755,7 @@ if menu_id == "Life Expectancy Prediction":
   
 #Prediction button
   with col22:
+    ft = "{:.1f}".format(ft)
     if st.button ("Expected Life Span"):
      st.subheader(ft.mean())
      st.markdown("""Please note that the factors used to determine Life Expectancy are limited to the Country Scale Factors.
